@@ -1,0 +1,6 @@
+name: API Test for Semantic Instrument Repository
+description: API Test for Repository for managing semantic description of instruments including questionnaires, physical instruments, and model
+package: Semantic Tools
+core_version_requirement: ^8 || ^9
+type: module 
+

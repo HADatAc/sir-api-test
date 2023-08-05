@@ -1,0 +1,4 @@
+services:
+  apitest.api_connector:
+    class: Drupal\apitest\APIConnector
+    arguments: ['@http_client_factory']

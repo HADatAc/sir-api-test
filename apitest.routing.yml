@@ -1,0 +1,13 @@
+
+# Landing page
+
+apitest.content:
+  path: '/test'
+  defaults:
+    _controller: '\Drupal\apitest\Controller\InitController::content'
+    _title: 'API Test'    
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: 'TRUE'
+
